@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+}
+
+.download{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.downloadImg{
+    width: 34%;
+}
+
+.download_details{
+    width: 100%;
+    margin-top: 10em;
+    justify-content: center;
+    color: #1feec6;
+}
+
+.download_details h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.download_details h4{
+    font-size: 25px;
+    margin-left: 1em;
+}
+
+.appStores{
+    display: flex;
+}
+
+.appStores img{
+    width: 30%;
+    margin-right: 2em;
+}
+
+@media(max-width:992px){
+    .download_details h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .download_details h4{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .appStores{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px){
+    .download{
+        flex-direction: column;
+    }
+
+    .download_details{
+        margin-top: unset;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    .download_details h1{
+        font-size: 24px;
+    }
+
+    .download_details h4{
+        font-size: 15px;
+    }
+
+    .downloadImg{
+        align-self: center;
+        width: 70%;
+    }
+}
+
+@media(max-width:450px){
+    .download_details h1{
+        font-size: 20px;
+    }
+}

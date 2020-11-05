@@ -1,0 +1,26 @@
+.hambuger{
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    cursor: pointer;
+}
+
+.hambuger div{
+    color: #1feec6;
+    background-color: #1feec6;
+    width: 100%;
+    height: 4px;
+}
+
+@media(max-width:768px){
+    .hambuger{
+        float: right;
+        margin-top: -2.2em;
+        margin-right: 2em;
+        display: flex;
+    }
+}
+

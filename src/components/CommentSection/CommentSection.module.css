@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    margin: 3em 0;
+}
+
+.comment{
+    width: 80%;
+    margin: auto;
+}
+
+.comment h1{
+    color: #1feec6;
+    text-transform: uppercase;
+}
+
+.inputs{
+    border-right: 2px solid #1feec6;
+    border-left: 2px solid #1feec6;
+    padding: .5em;
+}
+
+.inputs input[type="text"]{
+    width: 100%;
+    border: none;
+    border-bottom: .5px solid rgba(0,0,0,0.4);
+    transition: .6s linear;
+}
+
+.inputs input[type="text"]:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button, .buttons input{
+    padding: 8px;
+    margin: .5em;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.buttons button{
+
+}
+
+.buttons input{
+    background: rgba(196, 196, 185, 0.867);
+    font-weight: bold;
+    color: rgb(59, 58, 58);
+}
+
+@media(max-width:768px){
+    .comment h1{
+        font-size: 24px;
+    }
+
+    .buttons button, .buttons input{
+        padding: 4px;
+    }
+}
+
+@media(max-width:390px){
+    .comment h1{
+        font-size: 17px;
+    }
+
+    .buttons button, .buttons input{
+        padding: 3px;
+        font-size: 12px;
+    }
+}

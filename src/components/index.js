@@ -1,0 +1,15 @@
+export { default as Navbar } from './Navbar/Navbar';
+export { default as Carousel } from './Carousel/Carousel';
+export { default as AppPreview } from './AppPreview/AppPreview';
+export { default as Services } from './Services/Services';
+export { default as Features } from './Features/Features';
+export { default as NavDrawer } from './SideNavDrawer/NavDrawer';
+export { default as Backdrops } from './Backdrops/Backdrops';
+export { default as Team } from './Team/Team';
+export { default as Download } from './Download/Download';
+export { default as Footer } from './Footer/Footer';
+export { default as Contact_form } from './Contact Form/Contact_form';
+export { default as BackdropsContact } from './Backdrops/Backdrops_contact';
+export { default as ScrollToTop } from './ScrollToTop/ScrollArrow';
+export { default as CommentSection } from './CommentSection/CommentSection';
+export { default as CommentRecieved } from './CommentRecieved/CommentRecieved';

@@ -1,0 +1,126 @@
+.container{
+    width: 100%;
+    background: #e4fffa;
+}
+
+.services{
+    width: 90%;
+    margin: auto;
+    padding: 3em 0;
+}
+
+.services h2{
+    font-size: 38px;
+    text-align: center;
+    color: rgb(32, 31, 32,0.7);
+}
+
+.rowCards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+.rowCards .col{
+    width: 30%;
+    padding: 30px 0;
+    background: #fff;
+    color: rgb(32, 31, 32,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 12px .01px rgba(202, 191, 191, 0.4) ;
+    transition: .5s linear;
+}
+
+.rowCards .col:hover{
+    background: #0ecaa7;
+    color: #fff;
+}
+
+.rowCards .col h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.rowCards .col2 h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.rowCards img{
+    width: 150px;
+}
+
+.rowCards .giveImg{
+    width: 100px;
+    padding: 1em 0;
+}
+
+.rowCards .exImg{
+    width: 100px;
+}
+
+.rowCards .sellImg{
+    width: 100px;
+}
+
+
+.rowCards p{
+    width: 90%;
+    font-weight: bold;
+    margin-top: -1.5em;
+
+}
+
+.rowCards .col2{
+    background: #0ecaa7;
+    width: 30%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: .5s linear ;
+    box-shadow: 0px 3px 12px .01px rgba(202, 191, 191, 0.4) ;
+}
+
+.rowCards .col2:hover{
+    background-color: #fff;
+    color: rgb(32, 31, 32,0.7);
+}
+
+@media(max-width:768px){
+    .rowCards{
+        flex-direction: column;
+    }
+
+    .rowCards .col{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .rowCards .col2{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .rowCards p{
+        width: 93%;
+        margin: auto;
+        margin-top: -1em;
+    }
+
+    .exImg,.sellImg{
+        margin-top: 1em;
+    }
+
+    .services h2{
+        font-size: 24px;
+    }
+}

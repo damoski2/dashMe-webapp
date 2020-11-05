@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+}
+
+.previews{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.previews .giftImage{
+    border-radius: 50px;
+}
+
+.previews .phoneImg{
+    width: 28%;
+    margin-top: -19em;
+}
+
+.previews .giftImage{
+    margin-top: -1em;
+    width: 7%;
+}
+
+.previews .sellImage{
+    margin-top: -10em;
+    width: 7%;
+}
+
+/*Dots*/
+.dotsStyle .fI_dot{
+    width: 20px;
+    position: relative;
+    transform: translate(4900%, -830%);
+}
+
+.dotsStyle .s_dot{
+    width: 9px;
+    position: relative;
+    transform: translate(2300%, -1080%);
+}
+
+.dotsStyle .t_dot{
+    width: 9px;
+    position: relative;
+    transform: translate(9200%, -4800%);
+}
+
+.dotsStyle .fO_dot{
+    width: 20px;
+    position: relative;
+    transform: translate(1700%, -1600%);
+    transition: 1s linear;
+}
+
+.dotsStyle .fO_dot:hover{
+    margin-left: 6em;
+}
+
+@media(max-width:768px){
+    .previews{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .previews .phoneImg{
+        width: 50%;
+    }
+    .previews .giftImage{
+        margin-top: unset;
+        width: 15%;
+        
+    }
+    
+    .previews .sellImage{
+        margin-top: unset;
+        width: 15%;
+    }
+
+    .dotsStyle .fO_dot{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="123" viewBox="0 0 123 123">
+  <defs>
+    <rect id="rect-2" width="58.891" height="47.345" x="32.055" y="38"/>
+    <rect id="rect-3" width="58.891" height="47.345" x="32.055" y="38"/>
+    <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="123" height="123" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-3"/>
+    </mask>
+  </defs>
+  <g>
+    <ellipse cx="61.5" cy="61.5" fill="rgb(255,255,255)" rx="61.5" ry="61.5"/>
+    <g>
+      <use fill="none" xlink:href="#rect-3"/>
+      <g mask="url(#mask-4)">
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M58.2475 72.166l-1.08 2.159-2.328-.641-14.491-4v10.264l19.678 5.373V68.608l-1.779 3.558z"/>
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M65.8315 74.325l-1.079-2.159-1.788-3.576v16.755l19.755-5.395V69.669l-14.559 4.015-2.329.641z"/>
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M67.3795 70.852l21.215-5.85-5.875-11.751-21.216 5.85 5.876 11.751z"/>
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M55.6205 70.852l5.876-11.751-21.215-5.85-5.875 11.751 21.214 5.85z"/>
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M84.8095 50.863l6.135-7.012-21.216-5.85-8.226 9.4 15.69 4.327 5.526 1.524 2.091-2.389z"/>
+        <path fill="rgb(14,202,167)" fill-rule="evenodd" d="M45.8055 51.727l15.689-4.327-8.225-9.4-21.215 5.85 6.135 7.012 2.09 2.388 5.526-1.523z"/>
+      </g>
+    </g>
+  </g>
+</svg>

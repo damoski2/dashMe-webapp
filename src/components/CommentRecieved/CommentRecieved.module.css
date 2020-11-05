@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+}
+
+.comment{
+    width:80%;
+    margin: auto;
+}
+
+.comment h2{
+    color: #1feec6;
+}
+
+.actualComments{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em 0;
+    margin-left: 3em;
+}
+
+.actualComments p{
+    margin-top: 0em;
+    position: relative;
+    top: .6em;
+    margin-left: 1em;
+}
+
+.userIcon{
+    width: 30px;
+    height: 30px;
+    background: #1feec6;
+    padding: .5em;
+    border-radius: 50%;
+}
+
+@media(max-width:768px){
+    .userIcon{
+        width: 15px;
+    }
+
+    .actualComments{
+        margin-left: unset;
+    }
+}
+
+@media(max-width:550px){
+    .actualComments p{
+        top: .2em;
+    }
+}

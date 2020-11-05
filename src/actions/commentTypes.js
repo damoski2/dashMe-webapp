@@ -1,0 +1,2 @@
+export let POST_COMMENT = 'POST_COMMENT';
+export let FETCH_COMMENT = 'FETCH_COMMENT';
